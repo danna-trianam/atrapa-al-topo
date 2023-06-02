@@ -1,16 +1,16 @@
-const cuadrado = document.querySelectorAll(".cuadrado");
+const cuadro = document.querySelectorAll(".cuadro");
 const tiempofaltante = document.querySelector("·tiempo");
 let puntaje = document.getElementById("puntaje");
 
 let resultado = 0;
 let tiempoactual = tiempofaltante.textContent;
 
-function cuadradoazar {
+function cuadroazar {
 cuadrado.forEach(nombredeclase => {
   nombredeclase.classList.remove("topo");
    })
 }
-let posicionalazar = cuadrado [Match.floor (Match,random() * 9)]
+let posicionalazar = cuadro [Match.floor (Match,random() * 9)]
 posicionalazar.classList.add("topo");
 posiciontopo.posicionalazar.Id
 
@@ -25,7 +25,7 @@ cuadrado.forEach (identificador => {
 });
 
 function movertopo(){
-  tiempotopo = setInterval (cuadradoazar,700);
+  tiempotopo = setInterval (cuadroazar,700);
 }
 movertopo();
 
